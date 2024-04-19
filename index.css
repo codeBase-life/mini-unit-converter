@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+}
+
+h2 {
+    font-family: sans-serif;
+    color: white;
+}
+
+.main {
+    width: 450px;
+    margin: 100px auto 0px auto;
+}
+
+.nav {
+    background-color: blueviolet;
+    text-align: center;
+    padding: 40px;
+
+}
+
+.second-box {
+    /* text-align: center; */
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 600px;
+}
+
+.dummy {
+    height: 200px;
+}
+
+.txt-box {
+    width: 85%;
+    background-color: lightblue;
+    text-align: center;
+    font-family: sans-serif;
+    color: darkslategrey;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.display {
+    border: 2px solid skyblue;
+    width: 95px;
+    margin: 0px auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    /* font-weight: 800; */
+    border-radius: 10px;
+    /* color: white; */
+    /* font-size: 30px; */
+    /* font-family: sans-serif; */
+}
+
+#input {
+    width: 100%;
+    text-align: center;
+    /* padding: 15px 5px; */
+    border: none;
+    background-color: blueviolet;
+    font-family: sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.cov-btn {
+    padding: 9px 20px;
+    font-size: 25px;
+    font-family: monospace;
+    border-radius: 5px;
+    border: none;
+    margin: 0px auto;
+}
+
+.reset {
+    padding: 9px 30px;
+
+}
+
+.cov-btn:active {
+    background-color: aqua;
+    /* transition: ease-in-out */
+}
+
+.para-class {
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

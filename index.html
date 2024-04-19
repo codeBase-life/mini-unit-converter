@@ -1,0 +1,28 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="nav">
+                <h2>Metric/Imperial Unit Conversion</h2>
+                <div class="display">
+                    <input type="text" id="input">
+                </div>
+                <button class="cov-btn" onclick="start()">convert</button>
+                <button class="cov-btn reset" onclick="reset()">Reset</button>
+            </div>
+           <div class="second-box">
+            <div class="first-box txt-box"><h3>Length (Meter/Feet)</h3>
+            <p id="first-para" class="para-class"></p></div>
+            <div class="first-box txt-box"><h3>Volume (Liters/Gallons)</h3>
+            <p id="second-para" class="para-class"></p></div>
+            <div class="first-box txt-box"><h3>Mass (Kilograms/Pounds)</h3>
+            <p id="third-para" class="para-class"></p></div>
+            <!-- <div class="dummy"></div> -->
+            <!-- <input type="text" id="val"> -->
+           </div> 
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
